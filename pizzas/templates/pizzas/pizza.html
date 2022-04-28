@@ -6,12 +6,12 @@
 
 <h1>Toppings:</h1>
 
-<ul>
+<ol>
 	{% for topping in toppings %}
 	  <li>{{ topping }}</li>
 	{% empty %}
 	  <p>Looking for any suggesions from you.</p>
 	{% endfor %}
-</ul>
+</ol>
 
 {% endblock content %}
